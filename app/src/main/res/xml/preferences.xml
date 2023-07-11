@@ -76,7 +76,7 @@
             android:key="send_scan_active"
             android:summary="@string/send_scan_active_summary"
             android:title="@string/send_scan_active" />
-        <de.markusfisch.android.binaryeye.preference.UrlPreference
+        <com.awesomeapp.xscaner.preference.UrlPreference
             android:key="send_scan_url"
             android:title="@string/send_scan_url" />
         <ListPreference
@@ -129,7 +129,7 @@
             android:entryValues="@array/search_engines_values"
             android:key="default_search_url"
             android:title="@string/default_search_engine" />
-        <de.markusfisch.android.binaryeye.preference.UrlPreference
+        <com.awesomeapp.xscaner.preference.UrlPreference
             android:key="open_with_url"
             android:title="@string/open_with_url" />
         <Preference

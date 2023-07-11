@@ -40,7 +40,7 @@
         </intent>
     </queries>
     <application
-        android:name="de.markusfisch.android.binaryeye.app.BinaryEyeApp"
+        android:name="com.awesomeapp.xscaner.app.BinaryEyeApp"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -52,7 +52,7 @@
         android:usesCleartextTraffic="true"
         tools:ignore="UnusedAttribute">
         <activity
-            android:name="de.markusfisch.android.binaryeye.activity.SplashActivity"
+            android:name="com.awesomeapp.xscaner.activity.SplashActivity"
             android:exported="true"
             android:theme="@style/SplashTheme">
             <intent-filter>
@@ -64,7 +64,7 @@
                 android:resource="@xml/shortcuts" />
         </activity>
         <activity
-            android:name="de.markusfisch.android.binaryeye.activity.CameraActivity"
+            android:name="com.awesomeapp.xscaner.activity.CameraActivity"
             android:exported="true"
             android:label="@string/scan_code">
             <intent-filter android:label="@string/compose_barcode">
@@ -88,7 +88,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="de.markusfisch.android.binaryeye.activity.PickActivity"
+            android:name="com.awesomeapp.xscaner.activity.PickActivity"
             android:exported="true"
             android:label="@string/pick_code_to_scan"
             tools:ignore="AppLinkUrlError">
@@ -104,11 +104,11 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="de.markusfisch.android.binaryeye.activity.MainActivity"
+            android:name="com.awesomeapp.xscaner.activity.MainActivity"
             android:exported="true" />
 
         <service
-            android:name="de.markusfisch.android.binaryeye.service.ScanTileService"
+            android:name="com.awesomeapp.xscaner.service.ScanTileService"
             android:exported="true"
             android:icon="@drawable/ic_action_scan"
             android:label="@string/scan_code"

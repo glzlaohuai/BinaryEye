@@ -1,10 +1,10 @@
 <merge xmlns:android="http://schemas.android.com/apk/res/android">
-	<de.markusfisch.android.binaryeye.widget.CropImageView
+	<com.awesomeapp.xscaner.widget.CropImageView
 		android:id="@+id/image"
 		android:layout_width="match_parent"
 		android:layout_height="match_parent"
 		android:contentDescription="@string/view_barcode"/>
-	<de.markusfisch.android.binaryeye.widget.DetectorView
+	<com.awesomeapp.xscaner.widget.DetectorView
 		android:id="@+id/detector_view"
 		android:layout_width="match_parent"
 		android:layout_height="match_parent"/>

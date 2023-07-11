@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 
 android {
-    namespace 'com.awesomeapp.xscanner'
+    namespace 'com.awesomeapp.xscaner'
     compileSdkVersion sdk_version
     defaultConfig {
         minSdkVersion 9
