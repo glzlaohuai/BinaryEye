@@ -1,6 +1,15 @@
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 
+apply plugin: 'stringfog'
+
+
+stringfog {
+    implementation 'com.github.megatronking.stringfog.xor.StringFogImpl'
+    enable true
+}
+
+
 android {
     namespace 'com.awesomeapp.xscaner'
     compileSdkVersion sdk_version
@@ -66,4 +75,9 @@ dependencies {
     implementation 'com.github.markusfisch:CameraView:1.9.1'
     implementation 'com.github.markusfisch:ScalingImageView:1.4.1'
     implementation 'com.github.markusfisch:zxing-cpp:v2.1.0.0'
+
+    implementation 'com.github.megatronking.stringfog:interface:3.0.0'
+    implementation 'com.github.megatronking.stringfog:xor:3.0.0'
+
+
 }
