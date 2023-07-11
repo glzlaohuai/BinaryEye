@@ -1,6 +1,6 @@
 package de.markusfisch.android.binaryeye.actions.otpauth
 
-import de.markusfisch.android.binaryeye.R
+import com.awesomeapp.xscanner.R
 import de.markusfisch.android.binaryeye.actions.SchemeAction
 
 object OtpauthAction : SchemeAction() {

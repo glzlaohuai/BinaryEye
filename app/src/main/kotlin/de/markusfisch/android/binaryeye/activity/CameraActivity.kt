@@ -18,7 +18,7 @@ import android.view.MenuItem
 import android.view.MotionEvent
 import android.view.View
 import android.widget.SeekBar
-import de.markusfisch.android.binaryeye.R
+import com.awesomeapp.xscanner.R
 import de.markusfisch.android.binaryeye.adapter.prettifyFormatName
 import de.markusfisch.android.binaryeye.app.*
 import de.markusfisch.android.binaryeye.bluetooth.sendBluetoothAsync
@@ -44,9 +44,7 @@ import de.markusfisch.android.cameraview.widget.CameraView
 import de.markusfisch.android.zxingcpp.ZxingCpp
 import de.markusfisch.android.zxingcpp.ZxingCpp.Binarizer
 import de.markusfisch.android.zxingcpp.ZxingCpp.DecodeHints
-import de.markusfisch.android.zxingcpp.ZxingCpp.Format
 import de.markusfisch.android.zxingcpp.ZxingCpp.Result
-import java.nio.charset.Charset
 import kotlin.math.max
 import kotlin.math.min
 import kotlin.math.roundToInt

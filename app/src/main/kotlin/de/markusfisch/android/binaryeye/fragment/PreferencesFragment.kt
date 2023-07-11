@@ -15,17 +15,17 @@ import android.support.v7.preference.ListPreference
 import android.support.v7.preference.Preference
 import android.support.v7.preference.PreferenceFragmentCompat
 import android.support.v7.preference.PreferenceGroup
-import de.markusfisch.android.binaryeye.R
+import com.awesomeapp.xscanner.R
 import de.markusfisch.android.binaryeye.activity.SplashActivity
 import de.markusfisch.android.binaryeye.app.addFragment
 import de.markusfisch.android.binaryeye.app.hasBluetoothPermission
 import de.markusfisch.android.binaryeye.app.prefs
+import de.markusfisch.android.binaryeye.bluetooth.setBluetoothHosts
 import de.markusfisch.android.binaryeye.media.beepConfirm
 import de.markusfisch.android.binaryeye.preference.UrlPreference
 import de.markusfisch.android.binaryeye.view.setPaddingFromWindowInsets
 import de.markusfisch.android.binaryeye.view.systemBarRecyclerViewScrollListener
 import de.markusfisch.android.binaryeye.widget.toast
-import de.markusfisch.android.binaryeye.bluetooth.setBluetoothHosts
 
 class PreferencesFragment : PreferenceFragmentCompat() {
 	private val changeListener = object : OnSharedPreferenceChangeListener {

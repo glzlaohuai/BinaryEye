@@ -11,7 +11,7 @@ import android.support.v7.widget.RecyclerView
 import android.view.View
 import android.view.WindowManager
 import android.widget.AbsListView
-import de.markusfisch.android.binaryeye.R
+import com.awesomeapp.xscanner.R
 
 val systemBarListViewScrollListener = object : AbsListView.OnScrollListener {
 	override fun onScroll(

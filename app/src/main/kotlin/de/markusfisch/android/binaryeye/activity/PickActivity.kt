@@ -13,7 +13,7 @@ import android.support.v7.app.AppCompatActivity
 import android.support.v7.widget.Toolbar
 import android.view.Menu
 import android.view.MenuItem
-import de.markusfisch.android.binaryeye.R
+import com.awesomeapp.xscanner.R
 import de.markusfisch.android.binaryeye.app.applyLocale
 import de.markusfisch.android.binaryeye.app.prefs
 import de.markusfisch.android.binaryeye.graphics.crop

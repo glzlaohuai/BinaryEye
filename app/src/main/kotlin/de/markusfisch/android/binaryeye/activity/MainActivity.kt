@@ -8,7 +8,7 @@ import android.os.Bundle
 import android.support.v4.app.Fragment
 import android.support.v7.app.AppCompatActivity
 import android.support.v7.widget.Toolbar
-import de.markusfisch.android.binaryeye.R
+import com.awesomeapp.xscanner.R
 import de.markusfisch.android.binaryeye.app.*
 import de.markusfisch.android.binaryeye.database.Scan
 import de.markusfisch.android.binaryeye.fragment.DecodeFragment

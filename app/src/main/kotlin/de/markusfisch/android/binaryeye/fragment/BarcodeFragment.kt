@@ -9,7 +9,7 @@ import android.os.Bundle
 import android.support.v4.app.Fragment
 import android.view.*
 import android.widget.EditText
-import de.markusfisch.android.binaryeye.R
+import com.awesomeapp.xscanner.R
 import de.markusfisch.android.binaryeye.app.hasWritePermission
 import de.markusfisch.android.binaryeye.content.copyToClipboard
 import de.markusfisch.android.binaryeye.content.shareFile

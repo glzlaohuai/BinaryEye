@@ -4,7 +4,7 @@ import android.os.Bundle
 import android.support.v7.preference.PreferenceDialogFragmentCompat
 import android.view.View
 import android.widget.TextView
-import de.markusfisch.android.binaryeye.R
+import com.awesomeapp.xscanner.R
 import de.markusfisch.android.binaryeye.app.prefs
 import de.markusfisch.android.binaryeye.database.Scan
 import de.markusfisch.android.binaryeye.net.sendAsync

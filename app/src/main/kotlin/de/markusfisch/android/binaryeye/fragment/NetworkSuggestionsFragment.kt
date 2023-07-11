@@ -10,7 +10,7 @@ import android.support.v4.app.Fragment
 import android.view.*
 import android.widget.ArrayAdapter
 import android.widget.ListView
-import de.markusfisch.android.binaryeye.R
+import com.awesomeapp.xscanner.R
 import de.markusfisch.android.binaryeye.view.setPaddingFromWindowInsets
 import de.markusfisch.android.binaryeye.view.systemBarListViewScrollListener
 import de.markusfisch.android.binaryeye.widget.toast

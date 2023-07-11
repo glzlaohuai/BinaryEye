@@ -5,7 +5,7 @@ import android.content.Intent
 import android.os.Build
 import android.provider.CalendarContract
 import android.support.annotation.RequiresApi
-import de.markusfisch.android.binaryeye.R
+import com.awesomeapp.xscanner.R
 import de.markusfisch.android.binaryeye.actions.IntentAction
 import de.markusfisch.android.binaryeye.actions.vtype.VTypeParser
 import java.text.SimpleDateFormat

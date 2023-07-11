@@ -3,7 +3,7 @@ package de.markusfisch.android.binaryeye.actions.mail
 import android.content.Context
 import android.content.Intent
 import android.net.Uri
-import de.markusfisch.android.binaryeye.R
+import com.awesomeapp.xscanner.R
 import de.markusfisch.android.binaryeye.actions.IntentAction
 
 object MatMsgAction : IntentAction() {

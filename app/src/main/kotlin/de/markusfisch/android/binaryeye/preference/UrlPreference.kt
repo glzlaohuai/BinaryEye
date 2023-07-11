@@ -3,7 +3,7 @@ package de.markusfisch.android.binaryeye.preference
 import android.content.Context
 import android.support.v7.preference.DialogPreference
 import android.util.AttributeSet
-import de.markusfisch.android.binaryeye.R
+import com.awesomeapp.xscanner.R
 
 class UrlPreference(
 	context: Context?,

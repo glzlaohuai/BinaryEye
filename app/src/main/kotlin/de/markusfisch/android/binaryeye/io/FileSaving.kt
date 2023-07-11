@@ -8,7 +8,7 @@ import android.os.Environment
 import android.provider.MediaStore
 import android.support.annotation.MainThread
 import android.widget.EditText
-import de.markusfisch.android.binaryeye.R
+import com.awesomeapp.xscanner.R
 import de.markusfisch.android.binaryeye.app.alertDialog
 import java.io.File
 import java.io.FileOutputStream

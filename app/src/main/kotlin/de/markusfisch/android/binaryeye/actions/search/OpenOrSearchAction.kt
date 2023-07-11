@@ -1,7 +1,7 @@
 package de.markusfisch.android.binaryeye.actions.search
 
 import android.content.Context
-import de.markusfisch.android.binaryeye.R
+import com.awesomeapp.xscanner.R
 import de.markusfisch.android.binaryeye.actions.IAction
 import de.markusfisch.android.binaryeye.app.alertDialog
 import de.markusfisch.android.binaryeye.app.prefs

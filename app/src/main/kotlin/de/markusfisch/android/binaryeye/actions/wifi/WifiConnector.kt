@@ -7,7 +7,7 @@ import android.net.wifi.WifiManager
 import android.net.wifi.WifiNetworkSuggestion
 import android.os.Build
 import android.support.annotation.RequiresApi
-import de.markusfisch.android.binaryeye.R
+import com.awesomeapp.xscanner.R
 import java.util.*
 
 /**

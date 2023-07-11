@@ -1,7 +1,7 @@
 package de.markusfisch.android.binaryeye.actions.web
 
 import android.content.Context
-import de.markusfisch.android.binaryeye.R
+import com.awesomeapp.xscanner.R
 import de.markusfisch.android.binaryeye.actions.IAction
 import de.markusfisch.android.binaryeye.content.openUrl
 

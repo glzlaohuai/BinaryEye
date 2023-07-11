@@ -10,7 +10,7 @@ import android.support.v4.content.ContextCompat
 import android.util.AttributeSet
 import android.view.MotionEvent
 import android.view.View
-import de.markusfisch.android.binaryeye.R
+import com.awesomeapp.xscanner.R
 import de.markusfisch.android.binaryeye.app.prefs
 import de.markusfisch.android.binaryeye.graphics.getBitmapFromDrawable
 import de.markusfisch.android.binaryeye.graphics.getDashedBorderPaint

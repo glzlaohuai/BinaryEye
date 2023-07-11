@@ -8,7 +8,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.CursorAdapter
 import android.widget.TextView
-import de.markusfisch.android.binaryeye.R
+import com.awesomeapp.xscanner.R
 import de.markusfisch.android.binaryeye.database.Database
 import java.text.DateFormat
 import java.text.ParseException

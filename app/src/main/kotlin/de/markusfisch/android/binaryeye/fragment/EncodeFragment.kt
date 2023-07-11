@@ -7,7 +7,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.*
-import de.markusfisch.android.binaryeye.R
+import com.awesomeapp.xscanner.R
 import de.markusfisch.android.binaryeye.adapter.prettifyFormatName
 import de.markusfisch.android.binaryeye.app.addFragment
 import de.markusfisch.android.binaryeye.app.prefs

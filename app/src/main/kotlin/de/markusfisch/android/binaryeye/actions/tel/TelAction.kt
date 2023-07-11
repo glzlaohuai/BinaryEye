@@ -2,7 +2,7 @@ package de.markusfisch.android.binaryeye.actions.tel
 
 import android.content.Context
 import android.content.Intent
-import de.markusfisch.android.binaryeye.R
+import com.awesomeapp.xscanner.R
 import de.markusfisch.android.binaryeye.actions.IntentAction
 import de.markusfisch.android.binaryeye.content.parseAndNormalizeUri
 

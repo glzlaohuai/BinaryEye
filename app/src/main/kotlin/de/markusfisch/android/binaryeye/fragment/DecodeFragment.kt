@@ -10,7 +10,7 @@ import android.text.TextWatcher
 import android.text.method.LinkMovementMethod
 import android.view.*
 import android.widget.*
-import de.markusfisch.android.binaryeye.R
+import com.awesomeapp.xscanner.R
 import de.markusfisch.android.binaryeye.actions.ActionRegistry
 import de.markusfisch.android.binaryeye.actions.IAction
 import de.markusfisch.android.binaryeye.actions.wifi.WifiAction

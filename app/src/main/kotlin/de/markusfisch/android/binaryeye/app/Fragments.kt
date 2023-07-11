@@ -3,7 +3,7 @@ package de.markusfisch.android.binaryeye.app
 import android.annotation.SuppressLint
 import android.support.v4.app.Fragment
 import android.support.v4.app.FragmentManager
-import de.markusfisch.android.binaryeye.R
+import com.awesomeapp.xscanner.R
 
 fun FragmentManager.setFragment(fragment: Fragment) {
 	getTransaction(fragment).commit()

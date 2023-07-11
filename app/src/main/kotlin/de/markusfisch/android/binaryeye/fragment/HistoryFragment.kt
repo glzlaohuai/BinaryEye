@@ -18,7 +18,7 @@ import android.support.v7.widget.SwitchCompat
 import android.view.*
 import android.widget.EditText
 import android.widget.ListView
-import de.markusfisch.android.binaryeye.R
+import com.awesomeapp.xscanner.R
 import de.markusfisch.android.binaryeye.adapter.ScansAdapter
 import de.markusfisch.android.binaryeye.app.*
 import de.markusfisch.android.binaryeye.content.copyToClipboard
