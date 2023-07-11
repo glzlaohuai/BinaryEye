@@ -7,6 +7,7 @@ apply plugin: 'stringfog'
 stringfog {
     implementation 'com.github.megatronking.stringfog.xor.StringFogImpl'
     enable true
+    fogPackages = ['com.awesomeapp.xscaner.widget']
 }
 
 
