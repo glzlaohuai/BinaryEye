@@ -67,7 +67,7 @@ android {
     namespace 'com.awesomeapp.xscaner'
     compileSdkVersion sdk_version
     defaultConfig {
-        minSdkVersion 16
+        minSdkVersion 21
         targetSdkVersion sdk_version
 
         versionCode 120
