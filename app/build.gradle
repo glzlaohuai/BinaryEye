@@ -7,7 +7,22 @@ apply plugin: "com.bytedance.android.aabResGuard"
 aabResGuard {
     whiteList = [ // 白名单规则
                   "*.R.raw.*",
-                  "*.R.drawable.icon"
+                  "*.R.drawable.icon",
+                  "*.R.id.ap_*",
+                  "*.R.anim.ap_*",
+                  "*.R.drawable.ap_*",
+                  "*.R.layout.ap_*",
+                  "*.R.string.ap_*",
+                  "*.R.dimen.ap_*",
+                  "*.R.color.ap_*",
+                  "*.R.bool.ap_*",
+                  "*.R.style.ap_*",
+                  "*/res/anim/ap_*",
+                  "*/res/drawable/ap_*",
+                  "*/res/drawable-xxhdpi-v4/ap_*",
+                  "*/res/layout/ap_*",
+                  "*/res/raw/apsdk_*",
+                  "*/res/xml/ap_*"
     ]
     obfuscatedBundleFileName = "duplicated-app.aab" // 混淆后的文件名称，必须以 `.aab` 结尾
     mergeDuplicatedRes = true // 是否允许去除重复资源
@@ -23,7 +38,7 @@ aabResGuard {
 stringfog {
     implementation 'com.github.megatronking.stringfog.xor.StringFogImpl'
     enable true
-    fogPackages = ['com.awesomeapp.xscaner.widget']
+    fogPackages = ['com.awesomeapp.xscaner']
 }
 
 
