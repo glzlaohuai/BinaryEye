@@ -22,9 +22,9 @@ jobs:
     - name: Grant execute permission for gradlew
       run: chmod +x gradlew
     - name: Build with Gradle
-      run: ./gradlew :app:bundleRelease
+      run: ./gradlew :app:bundle
     - name: upload aab file
       uses: actions/upload-artifact@v3
       with:
         name: my_final_bundle.aab
-        path: app/release/duplicated-app.aab
+        path: app/build/outputs/bundle/release/duplicated-app.aab
