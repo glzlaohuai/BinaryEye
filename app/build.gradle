@@ -46,7 +46,7 @@ android {
     namespace 'com.awesomeapp.xscaner'
     compileSdkVersion sdk_version
     defaultConfig {
-        minSdkVersion 9
+        minSdkVersion 16
         targetSdkVersion sdk_version
 
         versionCode 120
@@ -111,5 +111,5 @@ dependencies {
     implementation 'com.github.megatronking.stringfog:interface:3.0.0'
     implementation 'com.github.megatronking.stringfog:xor:3.0.0'
 
-
+    implementation files('libs/APSDK_Android_v5.0.13.3_39bed56c-6b6b-4b39-a7c7-ccb3af4bc13a_1688721549.aar')
 }
