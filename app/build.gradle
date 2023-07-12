@@ -5,7 +5,6 @@ apply plugin: 'stringfog'
 apply plugin: "com.bytedance.android.aabResGuard"
 
 aabResGuard {
-//    mappingFile = file("mapping.txt").toPath() // 用于增量混淆的 mapping 文件
     whiteList = [ // 白名单规则
                   "*.R.raw.*",
                   "*.R.drawable.icon"
