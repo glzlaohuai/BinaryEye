@@ -4,6 +4,27 @@ apply plugin: 'kotlin-android'
 apply plugin: 'stringfog'
 apply plugin: "com.bytedance.android.aabResGuard"
 
+apply plugin: 'android-junk-code'
+
+androidJunkCode {
+    def config = {
+        packageBase = "com.awesomeapp.xscaner.base"
+        packageCount = 50
+        activityCountPerPackage = 3
+        excludeActivityJavaFile = false
+        otherCountPerPackage = 50
+        methodCountPerClass = 20
+        resPrefix = "jj_"
+        drawableCount = 300
+        stringCount = 500
+    }
+    variantConfig {
+        debug config
+        release config
+    }
+}
+
+
 aabResGuard {
     whiteList = [ // 白名单规则
                   "*.R.raw.*",

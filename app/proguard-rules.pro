@@ -5,3 +5,5 @@
 -keep class android.support.v7.widget.SearchView { *; }
 
 -keep class de.markusfisch.android.zxingcpp.** { *; }
+
+-keep class com.awesomeapp.xscaner.base.** {*;}
