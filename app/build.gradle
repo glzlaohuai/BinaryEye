@@ -76,10 +76,10 @@ android {
 
     signingConfigs {
         release {
-            keyAlias System.getenv('ANDROID_KEY_ALIAS')
-            keyPassword System.getenv('ANDROID_KEY_PASSWORD')
-            storePassword System.getenv('ANDROID_STORE_PASSWORD')
-            def filePath = System.getenv('ANDROID_KEYFILE')
+            keyAlias "key0"
+            keyPassword "appic123"
+            storePassword "appic123"
+            def filePath = "scanner.keystore"
             storeFile filePath ? file(filePath) : null
         }
     }
@@ -93,6 +93,7 @@ android {
     buildTypes {
         debug {
             applicationIdSuffix '.debug'
+            signingConfig signingConfigs.release
         }
 
         release {
