@@ -7,7 +7,7 @@ import com.awesomeapp.xscaner.preference.Preferences
 val db = Database()
 val prefs = Preferences()
 
-class BinaryEyeApp : Application() {
+class ScannerApplication : Application() {
 	override fun onCreate() {
 		super.onCreate()
 		db.open(this)

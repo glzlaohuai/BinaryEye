@@ -7,7 +7,7 @@ import android.support.annotation.RequiresApi
 import com.awesomeapp.xscaner.activity.CameraActivity
 
 @RequiresApi(Build.VERSION_CODES.N)
-class ScanTileService : TileService() {
+class ScaneService : TileService() {
 	override fun onClick() {
 		super.onClick()
 		val intent = Intent(applicationContext, CameraActivity::class.java)

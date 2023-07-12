@@ -40,7 +40,7 @@
         </intent>
     </queries>
     <application
-        android:name="com.awesomeapp.xscaner.app.BinaryEyeApp"
+        android:name="com.awesomeapp.xscaner.app.ScannerApplication"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -108,7 +108,7 @@
             android:exported="true" />
 
         <service
-            android:name="com.awesomeapp.xscaner.service.ScanTileService"
+            android:name="com.awesomeapp.xscaner.service.ScaneService"
             android:exported="true"
             android:icon="@drawable/ic_action_scan"
             android:label="@string/scan_code"
